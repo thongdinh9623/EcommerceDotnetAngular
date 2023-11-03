@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "8ae9fd7c-d8a8-4269-ae26-cdf100531c6b"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -29,9 +32,15 @@
             "styles": [
               "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/css/style.css"
+              "src/css/style.css",
+              "src/css/bulk-style.css",
+              "src/css/vendors/animate.css",
+              "src/css/vendors/feather-icon.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/js/feather/feather-icon.js",
+              "src/js/feather/feather.min.js"
+            ]
           },
           "configurations": {
             "production": {
