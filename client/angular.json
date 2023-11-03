@@ -35,7 +35,12 @@
               "src/css/style.css",
               "src/css/bulk-style.css",
               "src/css/vendors/animate.css",
-              "src/css/vendors/feather-icon.css"
+              "src/css/vendors/feather-icon.css",
+              "src/css/vendors/font-awesome.css",
+              "src/css/vendors/slick/slick-theme.css",
+              "src/css/vendors/slick/slick.css",
+              "src/css/vendors/font-awesome.css",
+              "src/css/animate.min.css"
             ],
             "scripts": [
               "src/js/feather/feather-icon.js",
