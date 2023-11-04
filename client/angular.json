@@ -39,7 +39,6 @@
               "src/css/vendors/font-awesome.css",
               "src/css/vendors/slick/slick-theme.css",
               "src/css/vendors/slick/slick.css",
-              "src/css/vendors/font-awesome.css",
               "src/css/animate.min.css"
             ],
             "scripts": [
@@ -53,7 +52,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "2mb"
                 },
                 {
                   "type": "anyComponentStyle",
